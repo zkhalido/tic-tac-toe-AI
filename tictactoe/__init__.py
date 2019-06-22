@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""Tic Tac Toe AI Game.
+"""
+
+__version__ = '1.0'
+__author__ = "Zack Khalid"
+
 from .board import Board
 from .render import Render
 from .get_move import GetMove
