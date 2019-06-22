@@ -2,7 +2,7 @@ move_x = 0
 move_y = 0
 class GetMove():
 
-    def get_move():
+    def get_move(board):
         while True:
             try:
                 move_x = int(input("Enter x coordinate: "))
