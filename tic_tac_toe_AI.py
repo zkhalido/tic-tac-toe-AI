@@ -14,8 +14,7 @@ if '__main__' == __name__:
         turn += 1
         winner = tictactoe.GetWinner.get_winner(board)
         board_is_full = tictactoe.IsBoardFull.is_board_full(board)
-        print(board_is_full)
-    #final render, before showing result    
+    #final render, before showing result
     tictactoe.Render.print_render(board)
 
     if board_is_full == True:
